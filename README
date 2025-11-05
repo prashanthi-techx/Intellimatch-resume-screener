@@ -1,0 +1,41 @@
+# IntelliMatch: AI Resume Screener
+
+An AI-powered Resume Screening App that matches candidate resumes with job descriptions using **TF-IDF** similarity and a trained ML model.
+
+
+## Features
+- Upload Resume Dataset (CSV)
+- Paste Job Description
+- Calculates **TF-IDF Similarity**
+- Predicts **Hire / Reject**
+- Displays Top Candidates
+- Downloadable Results in CSV
+
+
+
+## Tech Stack
+- **Python**
+- **Streamlit**
+- **Scikit-learn**
+- **Pandas**
+- **Joblib**
+
+
+
+## Folder Structure
+app/
+└── streamlit_app.py
+model/
+├── tfidf_vectorizer.pkl
+└── ai_recruiter_model.pkl
+data/
+└── AI_Resume_Screening.csv
+requirements.txt
+README.md
+
+
+
+## ▶How to Run
+pip install -r requirements.txt
+streamlit run app/streamlit_app.py
+
